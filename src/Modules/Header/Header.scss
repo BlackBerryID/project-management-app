@@ -1,0 +1,21 @@
+.logo__link {
+  width: 100px;
+  height: 40px;
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+  border-radius: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 15px;
+  @media screen and (max-width: 900px) {
+    margin: 0;
+  }
+}
+.css-3gte11 {
+  @media screen and (max-width: 900px) {
+    gap: 0px !important;
+    width: 100%;
+  }
+}
